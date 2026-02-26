@@ -4,6 +4,9 @@ A resilient, event-sourced indexing library for Azure Table Storage.
 
 `az-table-catalog` allows you to create high-performance, multi-indexed lookup tables without the high minimum monthly fees of Cosmos DB. It uses a Write-Ahead Log (WAL) and a checkpoint-driven recovery model to ensure data consistency even during process crashes.
 
+## Project Page
+http://shaunwagner.com/projects/az-table-catalog
+
 ## Why TableCatalog?
 Azure Table Storage is extremely cost-effective but lacks native secondary indexes. This library stores one row per (index, record) pair, encoding the index dimension directly into the PartitionKey.
 
